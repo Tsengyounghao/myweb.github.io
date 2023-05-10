@@ -1,0 +1,33 @@
+body
+{
+    background-color:cornsilk;
+    background: url(img/background.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+img
+{
+    width: 150px;
+    height: 150px;
+}
+#pic1
+{
+    border: 5px solid blue;
+    border-radius: 50%;
+    background-color: gold;
+}
+#pic1:hover
+{
+    box-shadow: 6px 6px 3px rgb(94, 93, 93);
+    transition: 1s;
+}
+#pic2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+#pic3
+{
+    filter: brightness(200%);
+}

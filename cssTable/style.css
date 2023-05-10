@@ -1,0 +1,39 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(252, 221, 184);
+}
+table,th,td
+{
+    /* border: 1px solid black; */
+}
+table
+{
+    width: 90%;
+    border-collapse: collapse;
+}
+th
+{
+    width: 20%;
+    height: 60px;
+    background-color:rgb(192, 74, 74);
+    color: beige;
+    font-size: 18px;
+}
+td
+{
+    text-align: center;
+    color:  ;
+    height: 60px;
+    font-size: 14px;
+    border-bottom: 3px solid coral;
+    font-family:Microsoft JhengHei;
+}
+tr:hover
+{
+    background-color: violet;
+    color: aquamarine;
+}
